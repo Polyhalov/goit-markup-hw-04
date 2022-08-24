@@ -290,6 +290,19 @@ img {
 .social .item+.item {
     margin-left: 10px;
 }
+/* Clients */
+.clients{
+    display:inline-flex
+}
+.clients-card{
+    width: 170px;
+    height: 92px;
+    /* background-color: #2196F3; */
+    padding: 16px 32px;
+    border: 1px solid #AFB1B8;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        border-radius: 4px;
+}
 /* Footer */
 .footer{
     background-color:var(--footer-color);
