@@ -300,8 +300,14 @@ img {
     /* background-color: #2196F3; */
     padding: 16px 32px;
     border: 1px solid #AFB1B8;
-        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
         border-radius: 4px;
+        fill: currentColor;
+}
+.clients-card:hover,
+.clients-card:focus{
+    border: 1px solid var(--hover-color);
+    fill:var(--hover-color);
+    cursor: pointer;
 }
 /* Footer */
 .footer{
