@@ -10,6 +10,7 @@
     --button-back-color:#188CE8;
     --ramka-color:#EEEEEE;
     --background-hero:#C4C4C4;
+    --social-color:#AFB1B8;
 }
 body{
     background-color:var(--white-color);
@@ -199,6 +200,7 @@ body{
     padding: 25px 100px;
     margin-bottom: 30px;
 }
+
 /* Work */
 .htitle{
     color:var(--title-text-color);
@@ -260,7 +262,33 @@ img {
         text-align: center;
 }
 .name{
-    padding: 30px 0;
+    padding: 30px 0 16px 0;
+}
+.social {
+    display: inline-flex
+}
+
+.social-background {
+    width: 44px;
+    height: 44px;
+    padding: 12px;
+    border-radius: 50%;
+    fill:var(--social-color)
+    /* background-color: #2196F3; */
+
+}
+.social-background:hover,
+.social-background:focus{
+    background-color: var(--hover-color);
+    fill:var(--white-color);
+    cursor: pointer;
+}
+
+.link-position {
+    padding: 0px 32px 30px 32px;
+}
+.social .item+.item {
+    margin-left: 10px;
 }
 /* Footer */
 .footer{
