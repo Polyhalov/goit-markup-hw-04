@@ -301,13 +301,16 @@ img {
     padding: 16px 32px;
     border: 1px solid #AFB1B8;
         border-radius: 4px;
-        fill: currentColor;
+        fill:var(--social-color)
 }
 .clients-card:hover,
 .clients-card:focus{
     border: 1px solid var(--hover-color);
     fill:var(--hover-color);
     cursor: pointer;
+}
+.clients-card + .clients-card{
+    margin-left: 30px;
 }
 /* Footer */
 .footer{
@@ -349,6 +352,9 @@ margin-top: 9px;
 .adres-nav .secondary-link:hover,
 .adres-nav .secondary-link:focus {
     color: var(--hover-color);}
+.link-position-footer{
+    /* align-items: baseline; */
+}
     /* Portfolio */
     /* Portfolio nav */
 .portfolio-nav{
