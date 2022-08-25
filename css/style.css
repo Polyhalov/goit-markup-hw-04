@@ -352,9 +352,43 @@ margin-top: 9px;
 .adres-nav .secondary-link:hover,
 .adres-nav .secondary-link:focus {
     color: var(--hover-color);}
-.link-position-footer{
-    /* align-items: baseline; */
+.footer-text{
+    display: flex;
+    align-items: baseline;
 }
+.footer-title{
+    margin-top: 0;
+    margin-bottom: 20px;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-align: left;
+        text-transform: uppercase;
+        color: var(--white-color);
+}
+.link-position-footer{
+    margin-left: 70px;
+}
+.social-background-footer{
+    width: 44px;
+        height: 44px;
+        padding: 12px;
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.1);
+        fill: var(--white-color);
+
+}
+.social-background-footer:focus,
+.social-background-footer:hover{
+    background-color: var(--hover-color);
+}
+
+
+
+
+
+
+
     /* Portfolio */
     /* Portfolio nav */
 .portfolio-nav{
