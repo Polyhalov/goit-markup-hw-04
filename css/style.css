@@ -294,22 +294,24 @@ img {
 }
 /* Clients */
 .clients{
-    display:inline-flex
+    display:flex;
 }
 .clients-card{
-    width: 170px;
-    height: 92px;
-    /* background-color: #2196F3; */
-    padding: 16px 32px;
-    border: 1px solid #AFB1B8;
-        border-radius: 4px;
-        fill:var(--social-color)
+    width:calc((100% - 150px)/6);
 }
-.clients-card:hover,
-.clients-card:focus{
+.clients-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 92px;
+    fill: var(--social-color);
+    border: 1px solid var(--social-color);
+        border-radius: 4px;
+}
+.clients-link:hover,
+.clients-link:focus{
+    fill: var(--hover-color);
     border: 1px solid var(--hover-color);
-    fill:var(--hover-color);
-    cursor: pointer;
 }
 .clients-card + .clients-card{
     margin-left: 30px;
